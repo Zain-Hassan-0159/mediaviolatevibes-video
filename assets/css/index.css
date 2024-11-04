@@ -1,0 +1,151 @@
+/*! CSS Used from: ../images/Royal-Q-Bot-Trade/css/bootstrap.min_1.css */
+*,::after,::before{box-sizing:border-box;}
+footer{display:block;}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff;}
+h2,h3,h4{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+a{color:#007bff;text-decoration:none;background-color:transparent;}
+a:hover{color:#0056b3;text-decoration:underline;}
+h2,h3,h4{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h2{font-size:2rem;}
+h3{font-size:1.75rem;}
+h4{font-size:1.5rem;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-lg-3,.col-md-6{position:relative;width:100%;padding-right:15px;padding-left:15px;}
+@media (min-width:768px){
+.col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;}
+}
+@media (min-width:992px){
+.col-lg-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%;}
+}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+a:not(.btn){text-decoration:underline;}
+h2,h3,p{orphans:3;widows:3;}
+h2,h3{page-break-after:avoid;}
+body{min-width:992px!important;}
+.container{min-width:992px!important;}
+}
+/*! CSS Used from: ../images/Royal-Q-Bot-Trade/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+body{margin:0;font-family:var(--bs-body-font-family);font-size:var(--bs-body-font-size);font-weight:var(--bs-body-font-weight);line-height:var(--bs-body-line-height);color:var(--bs-body-color);text-align:var(--bs-body-text-align);background-color:var(--bs-body-bg);-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent;}
+h2,h3,h4{margin-top:0;margin-bottom:.5rem;font-weight:500;line-height:1.2;}
+h2{font-size:calc(1.325rem + .9vw);}
+@media (min-width:1200px){
+h2{font-size:2rem;}
+}
+h3{font-size:calc(1.3rem + .6vw);}
+@media (min-width:1200px){
+h3{font-size:1.75rem;}
+}
+h4{font-size:calc(1.275rem + .3vw);}
+@media (min-width:1200px){
+h4{font-size:1.5rem;}
+}
+p{margin-top:0;margin-bottom:1rem;}
+a{color:#0d6efd;text-decoration:underline;}
+a:hover{color:#0a58ca;}
+iframe{border:0;}
+.container{width:100%;padding-right:var(--bs-gutter-x,.75rem);padding-left:var(--bs-gutter-x,.75rem);margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+@media (min-width:1400px){
+.container{max-width:1320px;}
+}
+.row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex-wrap:wrap;margin-top:calc(-1 * var(--bs-gutter-y));margin-right:calc(-.5 * var(--bs-gutter-x));margin-left:calc(-.5 * var(--bs-gutter-x));}
+.row>*{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5);margin-top:var(--bs-gutter-y);}
+@media (min-width:768px){
+.col-md-6{flex:0 0 auto;width:50%;}
+}
+@media (min-width:992px){
+.col-lg-3{flex:0 0 auto;width:25%;}
+}
+/*! CSS Used from: ../images/Royal-Q-Bot-Trade/css/style.css */
+body{font-family:"Cairo", sans-serif;color:#000;direction:rtl;text-align:right;font-size:16px;background:#fff;}
+.video-sec{position:relative;overflow:hidden;}
+.video-sec:before{content:"";position:absolute;height:90px;width:25%;background:#010003;top:0;z-index:1;left:0;display:none;}
+video{margin-top:-7%;width:100%;}
+.video-wrap{position:absolute;z-index:9;margin:auto;left:0;right:0;display:flex;align-items:center;justify-content:center;bottom:20%;color:#fff;}
+.video-wrap .wrap-txt{width:50%;float:left;}
+.video-wrap .wrap-txt h3{line-height:40px;}
+.first-sect{padding:60px 0;}
+.first-sect{padding:60px 0;}
+.contact-form{background-color:#fff;border-radius:10px;max-width:440px;margin:0 auto 0;text-align:center;overflow:hidden;box-shadow:0px 25px 50px 0px rgba(0, 0, 0, 0.1);}
+@media (max-width: 767px){
+.contact-form{margin-bottom:50px;}
+}
+.contact-form .contact-wrapper{padding:20px;}
+@media (max-width: 991px){
+.contact-form .contact-wrapper{padding:15px 15px 20px 15px;}
+}
+.contact-form h3{font-size:30px;font-weight:700;line-height:36px;padding-top:20px;margin:0;}
+@media (max-width: 991px){
+.contact-form h3{font-size:18px;line-height:28px;padding:20px 40px;}
+}
+@media (max-width: 480px){
+.contact-form h3{padding:20px 50px;}
+}
+h4{font-size:1.2rem;color:#1358aa;}
+h2{font-weight:700;margin:30px 0 15px;}
+p{margin-bottom:1.5rem;font-size:18px;}
+.second-sec{padding:50px 0;background:url(../images/S03-white-bg.jpg);background-position:center;background-size:cover;background-repeat:no-repeat;}
+.icon{display:inline-block;height:30px;width:30px;background:url(../images/sprite.png);background-repeat:no-repeat;}
+.icon1{background-position:-84px -50px;}
+.icon2{background-position:-84px -115px;}
+.icon3{background-position:-84px -184px;}
+.icon4{background-position:-84px -249px;}
+.box{background:#fff;padding:40px 20px;text-align:center;box-shadow:2px 3px 8px 0px #ccc;height:100%;}
+.box h3{margin:20px 0;font-weight:700;}
+.third-sec{padding:50px 10px;background:url(../images/new-trading-img.jpg);background-size:cover;background-repeat:no-repeat;color:#fff;}
+.third-sec h2{margin-top:0;}
+.third-sec a{display:inline-block;padding:15px 20px;border:1px solid;margin:0;color:#fff;text-decoration:none;}
+.footer-bottom{background:#4c8fde;padding:10px;text-align:center;}
+.footer-bottom p{color:#fff;margin:0;font-size:14px;}
+@media (max-width: 1440px){
+video{height:111vh;}
+}
+@media (max-width: 1400px){
+video{height:auto!important;}
+}
+@media (max-width: 991px){
+.mb-mt3{margin-top:20px;}
+}
+@media (max-width: 767px){
+video{margin-top:0;}
+.video-wrap{position:relative;margin-top:-7px;bottom:0;background:#000;}
+.video-wrap .wrap-txt{width:100%;padding:30px;}
+p{margin-bottom:1.2rem;font-size:16px;}
+.third-sec{background-position:center;}
+}
+/*! CSS Used from: Embedded */
+body{text-align:right;}
+body{direction:rtl;}
+footer{text-align:right;background-color:#FFFFFF;}
+#footer_disclaimer{color:#000000;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Cairo';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1biLD-H.woff2) format('woff2');unicode-range:U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC, U+102E0-102FB, U+10E60-10E7E, U+10EC2-10EC4, U+10EFC-10EFF, U+1EE00-1EE03, U+1EE05-1EE1F, U+1EE21-1EE22, U+1EE24, U+1EE27, U+1EE29-1EE32, U+1EE34-1EE37, U+1EE39, U+1EE3B, U+1EE42, U+1EE47, U+1EE49, U+1EE4B, U+1EE4D-1EE4F, U+1EE51-1EE52, U+1EE54, U+1EE57, U+1EE59, U+1EE5B, U+1EE5D, U+1EE5F, U+1EE61-1EE62, U+1EE64, U+1EE67-1EE6A, U+1EE6C-1EE72, U+1EE74-1EE77, U+1EE79-1EE7C, U+1EE7E, U+1EE80-1EE89, U+1EE8B-1EE9B, U+1EEA1-1EEA3, U+1EEA5-1EEA9, U+1EEAB-1EEBB, U+1EEF0-1EEF1;}
+@font-face{font-family:'Cairo';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a13iLD-H.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Cairo';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1PiLA.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
