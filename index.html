@@ -365,6 +365,15 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.6.0/webcomponents-loader.js"></script>
     <script src="form.js"></script>
+    <script>
+            const interval = setInterval(() => {
+        const submitBtn = document.getElementById('submitBtn');
+        if (submitBtn) {
+            submitBtn.textContent = 'سجل الآن';
+            clearInterval(interval); // Stop checking once the element is found and modified
+        }
+    }, 500); // Check every 500 milliseconds
+    </script>
 </body>
 
 </html>
